@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="carrusel">
+        <div class="carrusel-imagenes">
+            <img src="imagenes/brujo.jpg" alt="Imagen 1" class="activo">
+            <img src="imagenes/paro.jpg" alt="Imagen 2">
+            <img src="imagenes/poutones.jpg" alt="Imagen 3">
+        </div>
+        <button class="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+        <button class="next" onclick="cambiarImagen(1)">&#10095;</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
